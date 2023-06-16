@@ -3,7 +3,6 @@
 #include "Console.h"
 #include "Console_io.h"
 
-extern Telnet telnet;
 extern Console console;
 
 static int abs(int a){

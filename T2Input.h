@@ -1,6 +1,5 @@
 #pragma once
 #include "main.h"
-#include "Telnet.h"
 
 class T2Input
 {
