@@ -24,7 +24,7 @@ void transmit_separator(VMINT result)
 		vm_ascii_to_ucs2(path_w, 100, path_a);
 
 		counter++;
-		sprintf(log_buf, "vm_audio_play_file_ex(%s) -> %d\n", path_a, vm_audio_play_file_ex(path_w, 0, VM_DEVICE_LOUDSPEAKER, transmit_separator));
+		sprintf(log_buf, "vm_audio_play_file_ex(%s) -> %d\n", path_a, vm_audio_play_file_ex(path_w, 0, VM_DEVICE_SPEAKER, transmit_separator));
 		console_str_in(log_buf);
 	}
 }
@@ -40,7 +40,7 @@ void transmit_3bit(char b)
 		vm_ascii_to_ucs2(path_w, 100, path_a);
 
 		counter++;
-		sprintf(log_buf, "vm_audio_play_file_ex(%s) -> %d\n", path_a, vm_audio_play_file_ex(path_w, 0, VM_DEVICE_LOUDSPEAKER, transmit_separator));
+		sprintf(log_buf, "vm_audio_play_file_ex(%s) -> %d\n", path_a, vm_audio_play_file_ex(path_w, 0, VM_DEVICE_SPEAKER, transmit_separator));
 		console_str_in(log_buf);
 	}
 	else {
